@@ -1,0 +1,70 @@
+GIT e GITHUB
+
+COMANDOS
+
+   WINDOWS                     UNIX
+
+ cd				dir
+
+dir				ls - listar pastas
+
+mkdir				mkdir
+
+del/rmdir			rm-rf	
+
+dir - listar os repositórios
+cd / - mudar de diretório
+cd.. - retrocede um nível na navegação
+cls - limpar terminal      / clear (Linux) ctrl+l
+TAB - Autocompletar
+mkdir - criar diretórios
+echo - cria o arquivo dentro do terminal - PEGA UMA STRING E COSPE O OUTPUT DESSA STRING
+del - deleta o arquivo somente
+rmdir - deleta o repositório
+
+FLAGS
+/S
+/Q
+ls -a (mostra arquivos ocultos)
+git remote -v ( Traz os repositórios remotos na qual o repositório está apontado)
+
+
+FUNCIONAMENTO DO GIT
+Sistema distribuído seguro
+
+SHA1 - GERA CONJUNTO IDENTIFICADOR DE 40 CHARACTERES - FORMA CURTA DE REPRESENTAR UM ARQUIVO
+
+OBEJTOS INTERNOS DO GIT
+
+BLOBS
+Estrutura : \0 "conteudo"
+contém metadados do git
+
+TREES
+Armazenam Blobs
+
+COMMIT
+Tree
+Parent
+autor
+mensagem
+Timestamp
+
+
+COMANDOS DO GIT
+
+git init - cria um repositório
+git add (git add *) - move o arquivo untracked para staged
+git commit (git commit -m "") - retorna o arquivo pra unmodified aguardando novas modificações
+ ciclo entre untracked e tracked
+
+repositório local composto por commits
+
+git status
+
+
+
+
+
+
+
